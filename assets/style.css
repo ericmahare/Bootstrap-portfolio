@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Lato:wght@100&family=Open+Sans:wght@300&family=Poppins&family=Roboto:ital,wght@0,700;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 12px;
+  color: #1c1a19;
+}
+
+nav {
+  background: #3e3c3c;
+}
+
+.hero {
+  background: url('../assets/images/Illustration-desktop.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+}
+
+.hero h1 {
+  font-family: 'Crete Round', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.h2-style {
+  font-family: 'Crete Round', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.icones-heros {
+  font-size: 22px;
+  gap: 10px;
+}
+
+.text-line-hero {
+  width: 40%;
+}
+
+.work-headline h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+.p-style{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.work-headline {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.work-headline::after {
+  content: "";
+  height: 1px;
+  width: 60%;
+  background-color: #212121;
+}
+
+.tecnologies-tag li {
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+}
+
+.card:nth-child(1) {
+  height: 430px;
+  width: 30%;
+  background: url(../assets/images/second-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 12px 0;
+}
+
+.card:nth-child(2) {
+  height: 430px;
+  width: 30%;
+  background: url(../assets/images/third-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 12px 0;
+}
+
+.card:nth-child(3) {
+  height: 430px;
+  width: 30%;
+  background: url(../assets/images/fourth-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 12px 0;
+}
+
+.card:nth-child(4) {
+  height: 430px;
+  width: 30%;
+  background: url(../assets/images/card_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 12px 0;
+}
+
+.card:nth-child(5) {
+  height: 430px;
+  width: 30%;
+  background: url(../assets/images/third-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 12px 0;
+}
+
+.card:nth-child(6) {
+  height: 430px;
+  width: 30%;
+  background: url(../assets/images/fourth-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 12px 0;
+}
+
+.card li {
+  background: rgba(255, 255, 255, 0.24);
+  box-sizing: border-box;
+}
+
+.about-section{
+  margin-top: 130px;
+}
+
+.about-text {
+  margin-top: 56px;
+  margin-left: 56px;
+}
+
+.frame-section {
+  margin-top: 120px;
+  margin-left: 56px;
+}
+
+.frame-section p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+}
+
+.frame-section i {
+  font-weight: 700;
+  font-size: 25px;
+  color: #ff6b00;
+}
+
+.languages i {
+  transform-origin: 10px 10px;
+  transform: rotate(40deg);
+}
+
+.contact-text p {
+  font-family: 'Inter',sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #262626;
+}
+
+footer {
+  border: 1px solid #dfe1e6;
+}
